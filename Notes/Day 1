@@ -1,0 +1,85 @@
+python data type
+str
+int
+float
+bool
+complex-for represending complex numbers
+-----------------------------------------------
+type function
+for printing the type of python variables
+print("type(var_name)")
+-----------------------------------------------
+keywords
+
+------------python literals-----------------------
+*-string literal -single line string eg h="hello"
+                -multi line string  eg a="hello
+                                          world"
+                                       b="hello \ world"
+                                    eg c='''hello
+                                          world'''
+*-numeric literal  -int     eg: 23
+                  -float   eg: 34.34
+                  -complex eg: 3+34j
+                  -number type
+         decimal       eg num=2
+         binary       bin()
+         hexadecimal  hex()
+         octadecimal  oct()
+*-boolean literal
+*-special literal   -python contains one special litral called None eg: x
+                                                                     print(x)
+                                                                     None
+-litral collection -4 types
+                    tuple, set ,list ,disnary  
+
+------------------------------------------------------------------
+arithmetic operation
+_______________________
++
+-
+/
+*
+%
+** -exponent
+// -floor division   eg:3/2=1.5
+                        3//2=1
+----------------comparision operation----------------
+return value is boolean
+----------------assignment operation-----------------
+=
++=
+-=
+*=
+%=   --
+**=
+//=
+
+-------bitwise operation---------
+&(binary and)
+|(binary or)
+^(binary xor)
+~(negation)
+<<(left shift)
+>>(right shif)
+------logical operation----------
+and
+or
+not
+-------membership operator-----------
+in
+not in
+       eg :x=[2,34,5,1,]
+       2 in x =true
+       8 in x =flase
+       2 not in x =flase
+       8 not in x = true
+----------identity operation-----------
+is 
+is not
+     eg: x1=5
+         y1=5
+         x2='hello'
+         y2="hello"
+         print(x1 is not y1) # false
+         print(x2 is y2)     #True

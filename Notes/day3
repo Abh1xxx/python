@@ -1,0 +1,56 @@
+     contiune 
+ 
+     pass statement
+            *key word to do nothing
+            
+ __________________________________________
+        function
+      -----------
+   def key word is used to define a function
+  
+   def my_funtion();
+      function body 
+      return<expression>
+   
+      variable length ardument(any no. of args)
+  _______________________________________________
+ 
+         scope of variables
+          *Global variables
+          *lacal  variablse
+_________________________________________________
+
+                file handling
+            ----------------------
+           *create a file
+           *opening a file
+           *writing
+           *Reading
+           *appending the file
+           *closing a file
+-------------Opening a files---------------------------
+     file object =open(<file-name>,<access mode>)
+     
+    access mode
+        -r
+        -rb
+        -r+
+        -rb+
+        -w
+       file object attribute
+   file.closed 
+   file.read
+   file.mode
+
+
+____________in bulit modual ___________________
+       datetime
+      -----------
+  M-mintues
+  m-month
+  Y-2022
+  y-22
+  S-sec
+  H-hours
+
+

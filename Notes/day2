@@ -1,0 +1,178 @@
+--------------Python command-----------
+*single line command  -#-----
+*multi line command   -'''------'''
+_______________________________________
+input function
+eg: name=input('Enter your name')
+    print(name)
+input function reads the input as Strings
+_______________________________________
+String
+it can reprasented as in '',"",''' '''.
+[]-slices operator
+str="HELLO"
+str[0]=H
+str[4]=O
+
+substring 1,2,3,4
+---------
+we can use a :(colon)
+operator to access the substring
+string_name[staring index : ending index]
+eg : str="ABHI"
+     str[:]    =ABHI
+     str[0:3]  =ABH
+     str[0:]   =ABHI
+     str[:4]   =AHBI
+     
+_____________________________________
+Reassigning string
+------------------
+Strings are immutable in python
+
+eg: str="ABHI"
+    str[0]=K      //not possible
+
+    str="ABHI"
+    str="ABHIRAM"
+______________________________________________
+data types 
+         * List
+            - collection of values or an items of different types.
+             eg:  l1=["ABHI",34,"RAM"]
+                  l2=[1,2,3,4,5,6]
+           -  negative Indexing
+           -  updating list values
+                 list=[1,2,3,4,5,6]
+                 list[2]=10
+                 list=[1,2,10,4,5,6]
+                 list[1:3]=[89,78]
+                 list=[1,89,78,4,5,6]
+                 list.append(10)
+                 del list[2]
+                 list.remove(4)
+
+           -operations
+              *Repatition operation
+                  eg:L1=[1,2,3] ,L2=[4,5,6]
+                     L2*2=[1,2,3,1,2,3]
+              *concatenation
+                  eg: L1+L2=[1,2,3,4,5,6]
+              *Membership
+              *Iteration
+              *length
+                  eg:len(L1)=3
+         
+             ### list built in function
+               * cmp(list1,list2)  - compares the element of both the list (0 if true ,-1 is false)
+               *len(list)
+               *max(list)
+               *min(list)
+               *list(seg)
+
+
+          *tuples
+         ----------
+          used to  store the sequence of immutable
+python objects
+              eg:tuples=(1,2,3,4,5)
+             *operation
+             ------------
+              same as list operations
+             *Tuple inbulit function
+                   *cmp(t1,t2)
+                   *len(T1)
+                   *max(T1)
+                   *min(T1)
+                   *tuple(seq)
+                   
+                   
+           SET
+          -----
+             *it is defined as unordered collection of various items enclosed with in a curly braces
+             *not duplicated
+             * immutable
+             *no index
+            
+           Adding items
+           s=set([1,2,3,4,5])
+           s.add("HELLO")
+           print(s)
+           {1,2,3,HELLO,4,5}
+           
+           add multiple item in the set\
+           s=set([1,2,3,4,5,6])
+           s.update(["s","is","updated"])
+           print(s)
+           {1,2,'update',5,'is','s',20,25,30}
+           
+           removing item from set
+         --------------------------
+         
+         s={1,2,3,4}
+         s.remove(5)   #error
+         s.dicard(5)
+
+         s.pop()           
+         s.clear()
+         
+         union
+        -------
+         *union operator -|
+         *union function -union()
+         eg: s1={"I","Abhi","Abhi"}
+             s2={"I","Ram","Ram"}
+             print(s1|s2)
+             {'Abhi', 'I', 'Ram'}
+             print(s1.union(s2))
+             {'Abhi', 'I', 'Ram'}
+             
+          *intersection of two set
+            print(s1&s2)
+            {"I"}
+            
+         *Frozen sets 
+               --frozen sets are the immutable form of the normal sets ie the items of the frozen set can not be changed
+
+______________________________________________________________
+
+      *dictionary
+       it is used to  implement the key-value pair in python.The dictionary is the data type in python which can simulate the real-life data arrangement where   some specific values exit for some particular keys                  
+ employee={"Name":"RAM","AGE":29,"SALARY":500000000,"COMPANY":"TECHTALIYA"}
+print(employee["Name"]) 
+RAM     
+
+-------------update---------------
+
+
+-------------delete---------------
+
+    print(employee)
+    del employee["Name"]
+    print(employee)
+-------------bulit in dictionary functions--------
+        cmp(d1,d2)
+        len(d1)
+        str(d1)
+        type(variables)
+ 
+ ____________________________________________________
+         if expression:
+                statement
+          eg:num=int(input("Enter the number ?"))
+            if num%2==0:
+               print("The number is even")
+_____________________________________________________
+
+         elif statement
+_______________________________________________________
+        
+         loops
+        -------
+   for loop
+   --------
+____________________________________________________
+       using else statement       
+
+
+                                            
